@@ -68,7 +68,7 @@ new_y = np.array(new_y)
 plt.plot(new_x, new_y, 'ro', color='black')
 
 plt.ylabel('Revenue')
-plt.xlabel('Quarter Since Start of Remesh')
+plt.xlabel('Quarter Since Start of Company')
 plt.title('Year / Amount')
 
 new_x = np.reshape(new_x, (len(new_x), 1))
