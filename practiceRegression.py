@@ -68,8 +68,8 @@ new_y = np.array(new_y)
 plt.plot(new_x, new_y, 'ro', color='black')
 
 plt.ylabel('Revenue')
-plt.xlabel('Quarter Since Start of Remesh')
-plt.title('Revenue Per Quarter Since Start of Remesh')
+plt.xlabel('Quarter Since Start of Company')
+plt.title('Revenue Per Quarter Since Start of Company')
 
 slope, intercept, r_value, p_value, std_error = stats.linregress(new_x, new_y)
 plt.plot(new_x, ((new_x*slope)+intercept), 'b')
